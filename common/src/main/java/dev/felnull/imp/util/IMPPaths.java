@@ -7,10 +7,10 @@ import java.nio.file.Paths;
 
 public class IMPPaths {
     public static Path getNaiveLibraryFolder(String lavaVersion) {
-        return Paths.get(IamMusicPlayer.MODID).resolve(lavaVersion);
+        return Paths.get("music_files").resolve(lavaVersion);
     }
 
     public static Path getTmpFolder() {
-        return Paths.get(IamMusicPlayer.MODID).resolve("tmp");
+        return Paths.get("temp_files");
     }
 }
